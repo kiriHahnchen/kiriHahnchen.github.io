@@ -1,0 +1,32 @@
+.footer {
+    background-color: #333;
+    color: rgb(239, 253, 253);
+    margin-top: 20px;
+    padding: 0.5%;
+}
+
+.service {
+    display: inline-block;
+    position: relative;
+}
+.service-desc {
+    background-color: rgba(58, 55, 55, 0.5);
+    color: rgb(229, 241, 252);
+    display: inline-block;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    padding: 10px;
+}
+
+.service-desc-header {
+    font-size: 1.25em;
+    font-weight: bold;
+}
+
+
+.item-desc {
+    background-color: rgb(228, 198, 158);
+    color: black;
+    padding: 5px;
+}

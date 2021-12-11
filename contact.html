@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact Us</title>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- Bootstrap -->
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/stylecontact.css"  rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid">
+	
+		<div class="row">
+			
+			<nav class="navbar navbar-inverse bg-primary"  role="navigation">
+				<div class="container-fluid">
+				<!-- Brand and toggle get grouped for better mobile display -->
+				<div class="navbar-header">
+					<button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+						<span class="sr-only">Toggle navigation</span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+						<span class="icon-bar"></span>
+					</button>
+
+				</div>
+
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+
+						<li> <a href="index.html"> <span class="glyphicon glyphicon-home"></span> index</a> </li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Services</a></li>
+						<li><a href="#">News</a></li>
+						<li class="active"><a href="contact.html"><span class="glyphicon glyphicon-envelope"></span> Contact</a> </li>
+					</ul>
+
+					<form class="navbar-form navbar-right" role="search">
+						<div class="form-group">
+						<input type="text" class="form-control" placeholder="Search">
+						</div>
+						<button type="submit" class="btn btn-default">Search</button>
+					</form>
+
+				</div><!-- /.navbar-collapse -->
+				</div><!-- /.container-fluid -->
+			</nav>
+		</div>
+		
+		
+		<div class="row">
+			<div class="col-md-12">
+				<img class = "img-responsive" src="images/Shoes_Banner.jpg" />
+			</div>
+		</div>
+	</div> <!--Kết thúc container-fluid-->
+
+
+    <div class="container-fluid">
+        <div class="col-md-12 text-center">
+            <h2>Sent us your contact info</h2>
+        </div>
+
+        <div class="align-self-center">
+            <form>
+                <label for = "full-name">Full name: </label>
+                <input 
+                    type = "text" id = "full-name" name = "full-name" 
+                    placeholder="John Doe"
+                    required> <br>
+        
+                <label for = "email">Email address: </label>
+                <input  
+                    type = "text" id = "email" name = "email" 
+                    placeholder="johndoe123@abc.def"
+                    required> <br>
+        
+                <label for = "phonenum">Phone number: </label>
+                <input  type = "text" id = "phonenum" name = "phonenum" 
+                        placeholder="0123456789, 10 numbers" 
+						required> <br>
+
+				<label for="Validate">Validate</label>
+				<input type = "checkbox" id="Validate" name="Validate" onclick="console.log(this.style.display); check()"> <br>
+
+				<div id="submit" style="display: none;">
+					<input type = "submit" value="Submit" onclick="show()"><br>
+				</div>
+            </form>
+        </div>
+        
+    </div>
+
+    
+    <div class="container-fluid">
+		<div class="row">
+			<div class="col-md-12 text-center footer">
+				<p>Email : ShooesVN@gmail.com</p>
+				<p>Address: 100 Vuon Lai, Tan Phu District, HCMC</p>
+				<h5>&copy; Copyright 2021. Shoes.VN</h5>
+			</div>
+		</div>
+	</div>
+
+    <script src="js/Jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/mycode.js"></script>
+</body>
